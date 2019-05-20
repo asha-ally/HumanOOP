@@ -27,19 +27,20 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Human Asha = new Human("Asha",30,50);
+        Human Asha = new Human("Asha",30,32);
         Asha.sleep();
         Asha.eat();
-       Asha.sleep(8);
+        Asha.sleep(9);
         Asha.speak("How are you doing?");
         Asha.birthday();
+        Log.d("Human","your current age is "+ Asha.getAge());
 
-        Log.d("Human","your current age is"+ Asha.getAge());
-        Anna one = new Anna("Ali",23,67);
-        one.eat();
-        Log.d("Anna","I really love food and my new weight is " + one.weight);
-        one.birthday();
-        Log.d("Anna","you are currently" +one.getAge()+" " +"years old");
+        Anna Jane = new Anna("Human",23,15);
+        Jane.eat();
+        Log.d("Human","Anna's weight is "+Jane.getWeight());
+        Jane.birthday();
+        Log.d("Human","Your current age is "+Jane.getAge());
+
     }
 
     @Override
