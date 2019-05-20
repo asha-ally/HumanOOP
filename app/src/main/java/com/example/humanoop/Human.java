@@ -36,11 +36,12 @@ public class Human {
     public void setAge(int age) {
         this.age = age;
     }
-    public  void eat(){
+    public  void eat() {
         Log.d("eat","I am eating food");
     }
     public void sleep(){
-        Log.d("sleep","zzzzzz");
+
+         Log.d("sleep","zzzzzz");
     }
     public void sleep(int hours){
         Log.d("sleep","I am sleeping for"+hours +"hours");

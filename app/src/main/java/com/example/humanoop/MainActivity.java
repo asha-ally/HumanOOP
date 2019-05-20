@@ -27,17 +27,17 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Human vera = new Human("Vera",30,50);
-        vera.sleep();
-        vera.eat();
-        vera.sleep(8);
-        vera.speak("How do you feel");
-        vera.birthday();
+        Human Asha = new Human("Asha",30,50);
+        Asha.sleep();
+        Asha.eat();
+       Asha.sleep(8);
+        Asha.speak("How are you doing?");
+        Asha.birthday();
 
-        Log.d("Human","your current age is"+ vera.getAge());
-        Anna one = new Anna("Njeri",23,67);
+        Log.d("Human","your current age is"+ Asha.getAge());
+        Anna one = new Anna("Ali",23,67);
         one.eat();
-        Log.d("Anna","I love food and my new weight is " + one.weight);
+        Log.d("Anna","I really love food and my new weight is " + one.weight);
         one.birthday();
         Log.d("Anna","you are currently" +one.getAge()+" " +"years old");
     }
